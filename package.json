@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Just2sire/goolgle_event_site_clone",
+  "homepage": "https://Just2sire.github.io/goolgle_event_site_clone",
   "name": "hackathon_website",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",

@@ -79,6 +79,7 @@ const About = () => {
 const Stat = ({ data, text }) => {
   return (
     <Grid
+    item
       xs={6}
       sm={6}
       md={4}
